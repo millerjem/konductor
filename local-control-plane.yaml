@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  connection: local
+  become: yes
+
+  vars:
+
+  pre_tasks:
+
+  tasks:
+    - include: ansible/provision.yaml
+
+  
