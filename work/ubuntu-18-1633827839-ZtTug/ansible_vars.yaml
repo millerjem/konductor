@@ -34,7 +34,7 @@ packer:
   goss_url: null
   goss_vars_file: ansible/group_vars/all/system.yaml
   goss_version: 0.3.16
-packer_builder_type: ""
+packer_builder_type: "none"
 pause_image_version: 3.4.1
 pause_image_version_prev: "3.2"
 python_path: ""
