@@ -1,6 +1,6 @@
 build_name: ubuntu-18
 containerd_cri_socket: /run/containerd/containerd.sock
-containerd_sha256: 3ef2cc781be6e9c06ba405ddd630ac91a3f32858117a040f66110407bb82d83a
+containerd_sha256: 80c47ec5ce2cd91a15204b5f5b534892ca653e75f3fba0c451ca326bca45fb00
 containerd_url: https://github.com/containerd/containerd/releases/download/v{{ containerd_version
   }}/cri-containerd-cni-{{ containerd_version }}-linux-amd64.tar.gz
 containerd_version: 1.4.11
